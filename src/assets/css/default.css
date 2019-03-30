@@ -1,0 +1,54 @@
+@import "_config.css";
+
+header {
+	position: relative;
+	display: block;
+	width: 100%;
+	background: black;
+	color: white;
+	height: 80px;
+}
+
+header .logo {
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	left: 15px;
+}
+
+header nav {
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	right: 15px;
+}
+
+nav,
+nav ul,
+nav ul li {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li.first {
+
+}
+
+nav ul li.last {
+	margin: 0;
+}
+
+nav ul li a {
+	font-size: 19px;
+	line-height: normal;
+}
